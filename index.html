@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mi primer pagina Web</title>
+</head>
+<body>
+    <header class="content header"> <!-- Etiqueta de encabezado visulamente no se nota PERO le da estructura a nuestro codigo pagina-->
+        <h1 class="title">Inicio de mi pagina Web</h1>
+
+        <spam>Home</spam> <!-- Etiqueta para textos cortos y que no ocupa el ancho de la pantalla y mantener la misma linea de la oración-->
+        <spam>Noticia</spam>
+        <spam>Clima</spam>
+    
+    </header>    
+
+    <main> <!-- Etiqueta para dar a saber el contenido principal y le damos estructura-->
+
+        <img src="./Babycorazon.jpeg" /> <!-- Etiqueta de imagen con su atrivuto SRC con el cual le decimos que archivo llama a abrir-->
+
+        <section> <!-- Etiqueta para etablecer secciones y subdividir-->
+
+            <h2>Titulo de una sección de noticias</h2>
+
+            <article> <!-- Etiqueta establece por articulos y sigue subdividiendo por contenido le damos estructura-->
+                                
+                <h3>Esta es la noticia N°1</h3>
+
+                <div> <!-- Etiqueta de contenedor universal para agrupar elementos como parrafos y elementos sean necesarios-->
+                    
+                    <p>
+                        Este sera el primer parrafo de mi noticia
+                    </p>
+                    
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Illo maxime dolore et necessitatibus magni! Deleniti, iure n
+                        ecessitatibus.
+                    </p>
+                    
+                </div>
+
+            </article>
+            <hr /> <!-- Esta etiqueta que se cierra asi misma y que separa contenido-->
+
+            <article>
+
+                
+                <h3>Esta es la noticia N°2</h3>
+                
+                <p>
+                    Es un listado de cosas importantes para esta noticia ordenadas
+                </p>        
+                
+                <ol> <!-- Para crear listas ordenadas-->
+                    <li>Este es el item 1</li>
+                    <li>Este es el item 2</li>
+                    <li>Este es el item 3</li>
+                    
+                </ol>
+                
+            </article>
+            <hr />
+
+            <article>
+
+                
+                <h3>Esta es la noticia N°3</h3>
+                
+                <p>
+                    Es un listado de cosas importantes para esta noticia NO ordenadas
+                </p> 
+                
+                <ul> <!-- Para crear listas NO ordenadas-->
+                    <li>Este es un elemento</li>
+                    <li>Este es otro elemento</li>
+                    <li>Este es un elemento adicional</li>
+                    
+                </ul>
+                
+            </article>
+
+            <div class="btn-home">
+                <a href="#" class="btn">Saber mas</a>
+                <a href="#" class="btn">informar mas</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer> <!-- Etiqueta de barrita por debajo del contenido principal que tiene a su vez enlaces-->
+        
+        <p>
+            Este es el Footer de mi pagina. Voy a poner unos enlaces
+        </p>
+
+        <a href="./contacto.html">Formulario de Contacto</a> <!-- Etiqueta de enlace con su atrivuto HREF-->
+
+    </footer>
+
+        
+    <section class="content contact">
+        <h2 class="title">Contacto</h2>
+        <p>124578895623</p>
+        <figure class="map">
+            <img src="Redball.jpg" height="220px" width="100%" alt="mapa">
+        </figure>
+    </section>
+
+</body>
+</html>
